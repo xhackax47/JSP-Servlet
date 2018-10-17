@@ -1,0 +1,16 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>TLD Hello</short-name>
+	<tag>
+		<name>Hello</name>
+		<tag-class>tags.HelloTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>attribute_name1</name>
+			<required>false</required>
+			<type>java.util.Boolean</type>
+		</attribute>
+		<!-- <attribute> <name>to</name> <required>true</required> </attribute> -->
+	</tag>
+</taglib>

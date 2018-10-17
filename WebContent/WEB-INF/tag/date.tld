@@ -1,0 +1,22 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>TLD Date</short-name>	
+	<tag>
+		<name>Date</name>
+		<tag-class>tags.DateTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>date</name>
+			<required>false</required>
+			<type>java.text.SimpleDateFormat</type>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>format</name>
+			<required>false</required>
+			<type>java.lang.String</type>
+			<fragment>true</fragment>
+		</attribute>
+	</tag>
+</taglib>

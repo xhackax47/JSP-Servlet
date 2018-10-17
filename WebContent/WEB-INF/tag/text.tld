@@ -1,0 +1,16 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>TLD Text</short-name>	
+	<tag>
+		<name>Text</name>
+		<tag-class>tags.TextTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>text</name>
+			<required>false</required>
+			<type>java.lang.String</type>
+			<fragment>true</fragment>
+		</attribute>
+	</tag>
+</taglib>

@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: antiquewhite;
+}
+
+h2 {
+	text-align: center;
+	color: antiquewhite;
+}
+
+.container {
+	color: whitesmoke;
+	text-align: center;
+}
+
+.container-fluid {
+	text-align: center;
+}
+
+.container-fluid p {
+	color: whitesmoke;
+}	
+
+footer {
+	color: gainsboro;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.dateTag, .helloTag, .textTag {
+	color: red;
+}
+
+.dateTag p, .helloTag p, .textTag p{
+	color: whitesmoke;
+}
